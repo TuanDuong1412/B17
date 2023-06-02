@@ -1,23 +1,20 @@
+import BaiTap1 from './B15/BaiTap1';
+import BaiTap2 from './B15/BaiTap2';
+import ThucHanh1 from './B15/ThucHanh1';
+import ThucHanh2 from './B15/ThucHanh2';
+import ThucHanh3 from './B15/ThucHanh3';
 import logo from './logo.svg';
-import './App.css';
+import B17BT2 from './Bai17/BT2';
+
+import B17BT1 from './Bai17/BT1';
+import UserDetails from './B18/BT2/user';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      
+  <UserDetails></UserDetails>
+        
     </div>
   );
 }
