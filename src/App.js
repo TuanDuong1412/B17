@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="container">
       
-  <BaiTap1></BaiTap1>
+  <BaiTap2></BaiTap2>
         
     </div>
   );
